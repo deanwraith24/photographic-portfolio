@@ -42,6 +42,27 @@ h2 {
   text-decoration: none;
 }
 
+#about-top {
+  height: 75px;
+  width: 100%;
+  text-align: center;
+}
+
+.about-heading {
+  color: #777777;
+  font-family: Lato;
+  font-size: 200%;
+  letter-spacing: 2px;
+}
+
+#about-text {
+  height: 450px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
 footer {
   height: 150px;
 }
