@@ -4,3 +4,59 @@ body {
     font-family: Lato;
     color: blue;
   }
+
+h2 {
+  font-family: Oswald;
+  letter-spacing: 2px;
+  color: #CC5500;
+}
+
+#hero-image {
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+#hero-section {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#portfolio-teaser{
+  height: 450px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.portfolio-link {
+  font-family: Oswald;
+  color: #777777;
+  font-size: 130%;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+footer {
+  height: 150px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 200%;
+  margin: 1%;
+  padding: 5%;
+  color: #CC5500;
+}
