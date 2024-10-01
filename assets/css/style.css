@@ -82,6 +82,12 @@ h2 {
   width: 100%;
 }
 
+label {
+  color: #777777;
+  font-family: Lato;
+  font-size: 125%;
+}
+
 footer {
   height: 150px;
 }
