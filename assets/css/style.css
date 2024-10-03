@@ -2,7 +2,7 @@
 
 body {
     font-family: Lato;
-    color: blue;
+    color: #777777;
   }
 
 h2 {
@@ -63,6 +63,12 @@ h2 {
   text-align: center;
 }
 
+#awards-list {
+  text-align: center;
+  font-size: 110%;
+  padding-top: 25px;
+}
+
 .portfolio-row {
   display: flex;
   flex-wrap: wrap;
@@ -80,6 +86,11 @@ h2 {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+#contact-form > button {
+  background-color: #CC5500;
+  border: #777777;
 }
 
 label {
