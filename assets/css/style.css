@@ -16,7 +16,7 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: auto;
 }
 
 #hero-section {
@@ -24,11 +24,12 @@ h2 {
   width: 100%;
   overflow: hidden;
   position: relative;
+  text-align: center;
 }
 
 #portfolio-teaser{
-  height: 450px;
-  width: 100%;
+  height: 100%;
+  width: auto;
   overflow: hidden;
   position: relative;
   text-align: center;
