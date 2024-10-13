@@ -1,6 +1,6 @@
 # Chasing Light Photographic Portfolio
 
-[link to live project](google.com)
+[Link to live project](https://deanwraith24.github.io/photographic-portfolio/)
 
 Chasing Light Photographic Portfolio is a portfolio site for my personal wildlife photography that I have taken in my time working in wildlife conservation in South Africa. The goal was to showcase my images in an easy to access and view style. The site consists of 4 pages that help to reach this goal.
 
@@ -32,3 +32,5 @@ Chasing Light Photographic Portfolio is a portfolio site for my personal wildlif
 * Deployement
 
 * Credits
+
+### Planning
