@@ -6,23 +6,29 @@ Chasing Light Photographic Portfolio is a portfolio site for my personal wildlif
 
 ![Cover Image](image of various versions)
 
-###Table of Contents
-*Planning
-  *External User Goals
-  *Site Owner Goals
-  *Wireframes
-  *Fonts, Colors and Images
-*Features
-  *Header
-  *Footer
-  *Home Page
-  *About Page
-  *Portfolio Page
-  *Contact Page
-*Future Enhancements
-*Testing
-  *Manual Testing
-  *Validation
-  *Issues
-*Deployement
-*Credits
+### Table of Contents
+
+* Planning
+  * External User Goals
+  * Site Owner Goals
+  * Wireframes
+  * Fonts, Colors and Images
+
+* Features
+  * Header
+  * Footer
+  * Home Page
+  * About Page
+  * Portfolio Page
+  * Contact Page
+
+* Future Enhancements
+
+* Testing
+  * Manual Testing
+  * Validation
+  * Issues
+
+* Deployement
+
+* Credits
