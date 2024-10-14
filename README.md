@@ -4,7 +4,7 @@
 
 Chasing Light Photographic Portfolio is a portfolio site for my personal wildlife photography that I have taken in my time working in wildlife conservation in South Africa. The goal was to showcase my images in an easy to access and view style. The site consists of 4 pages that help to reach this goal.
 
-![Image of responsive site](assets/img/Responsiveness image.png)
+![Image of responsive site](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/Responsiveness%20image.png)
 
 ### <u>Table of Contents</u>
 
@@ -45,19 +45,19 @@ The goals of the site owner are to showcase a range of images of various wildlif
 
 <u>Home Page Wireframe</u>
 
-![Home Page Wireframe]()
+![Home Page Wireframe](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/Home%20Page%20Wireframe.png)
 
 <u>About Page Wireframe</u>
 
-![About Page Wireframe]()
+![About Page Wireframe](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/About%20Page%20Wireframe.png)
 
 <u>Portfolio Page Wireframe</u>
 
-![Portfolio Page Wireframe]()
+![Portfolio Page Wireframe](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/Portfolio%20Page%20wireframe.png)
 
 <u>Contact Page Wireframe</u>
 
-![Contact Page Wireframe]()
+![Contact Page Wireframe](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/Contact%20Page%20Wireframe.png)
 
 #### <u>Fonts, Colors and Images</u>
 
@@ -74,31 +74,37 @@ All the images included in the project are my personal images.
 
 #### <u>Header</u>
 
-![Header]()
+The site name links back to the home page. The various links in the nav bar link directly to their specific page and highlight when in use.
+
+![Header](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/Header.png)
 
 #### <u>Footer</u>
 
-![Footer]()
+The various icons link to the specific social media pages and open in a new window.
+
+![Footer](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/Footer.png)
 
 #### <u>Home Page</u>
 
-![Home Page]()
+On the Home Page, the text directing users to the Portfolio page is clickable and links directly to the portfolio page.
 
-![Home Page]()
+![Home Page](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/Home%20Page%201.png)
+
+![Home Page](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/Home%20Page%202.png)
 
 #### <u>About Page</u>
 
-![About Page]()
+![About Page](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/About%20Page%201.png)
 
-![About Page]()
+![About Page](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/About%20Page%202.png)
 
 #### <u>Portfolio Page</u>
 
-![Portfolio Page]()
+![Portfolio Page](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/Portfolio%20Page.png)
 
 #### <u>Contact Page</u>
 
-![Contact Page]()
+![Contact Page](https://github.com/deanwraith24/photographic-portfolio/blob/main/assets/img/Contact%20Page.png)
 
 ### <u>Future Enhancements</u>
 
