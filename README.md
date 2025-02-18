@@ -8,30 +8,31 @@ Chasing Light Photographic Portfolio is a portfolio site for my personal wildlif
 
 ### <u>Table of Contents</u>
 
-* Planning
-  * External User Goals
-  * Site Owner Goals
-  * Wireframes
-  * Fonts, Colors and Images
+* [Planning](#planning)
+  * [External User Goals](#external-user-goals)
+  * [Site Owner Goals](#site-owner-goals)
+  * [User Stories](#user-stories)
+  * [Wireframes](#wireframes)
+  * [Fonts, Colors and Images](#fonts-colors-and-images)
 
-* Features
-  * Header
-  * Footer
-  * Home Page
-  * About Page
-  * Portfolio Page
-  * Contact Page
+* [Features](#features)
+  * [Header](#header)
+  * [Footer](#footer)
+  * [Home Page](#home-page)
+  * [About Page](#about-page)
+  * [Portfolio Page](#portfolio-page)
+  * [Contact Page](#contact-page)
 
-* Future Enhancements
+* [Future Enhancements](#future-enhancements)
 
-* Testing
-  * Manual Testing
-  * Validation
-  * Issues
+* [Testing](#testing)
+  * [Manual Testing](#manual-testing)
+  * [Validation](#validation)
+  * [Issues](#issues)
 
-* Deployement
+* [Deployement](#deployement)
 
-* Credits
+* [Credits](#credits)
 
 ### <u>Planning</u>
 
@@ -40,6 +41,18 @@ The goals for users of this site are to see a collection of photographs taken ov
 
 #### <u>Site Owner Goals</u>
 The goals of the site owner are to showcase a range of images of various wildlife and wildlife experiences.
+
+#### <u>User Stories</u>
+Below is a table of the User Stories for the site with acceptance criteria and tasks to achieve the criteria,
+
+|User Story|Acceptance Criteria|Tasks|
+|:---------|:------------------|:----|
+|As a potential client, I can view a gallery<br> of wildlife photographs so that I can assess<br> the photographer's style and quality of work.|- Gallery displays multiple wildlife photographs in a grid layout<br>- Images load correctly and are responsive<br>- Each image has appropriate alt text for accessibility|- Create portfolio grid layout<br>- Implement responsive image sizing<br>- Add alt text to images<br>- Optimize images for web|
+|As a visitor, I can read about the photographer's <br>background and achievements so that I can understand<br> their experience and credibility.|- About page displays photographer's biography<br>- Awards and achievements are clearly listed<br>- Page includes relevant images|- Create biography section<br>- Implement awards section<br>- Add supporting images<br>- Ensure responsive layout|
+|As an interested client, I can submit a contact<br> form so that I can inquire about services<br> or collaboration opportunities.|- Form includes fields for name, email, country, and message<br>- All required fields are marked<br>- Form validates input before submission|- Build form structure<br>- Implement validation<br>- Style form elements<br>- Add form functionality|
+|As a mobile user, I can access the website navigation menu<br> so that I can browse different pages on my smartphone.|- Navigation menu collapses into hamburger menu on mobile devices<br>- Menu expands when clicked<br>- Navigation links are easily clickable on mobile|- Set up Bootstrap navbar<br>- Style mobile menu<br>- Implement responsive behaviour<br>- Optimize for touch|
+|As a visitor, I can access the photographer's social media<br> profiles so that I can follow their work on different platforms.|- Social media icons are visible in the footer<br>- Icons link to correct social media platforms<br>- Links open in new tabs|- Create footer layout<br>- Implement social icons<br>- Configure links<br>- Style interactions|
+|As a first-time visitor, I can view a selection of featured<br> images on the homepage so that I can<br> quickly understand the type of photography offered.|- Homepage displays featured images<br>- Images are professionally presented<br>- Clear link to full portfolio is available|- Create homepage layout<br>- Optimize featured images<br>- Style presentation<br>- Add portfolio link|
 
 #### <u>Wireframes</u>
 

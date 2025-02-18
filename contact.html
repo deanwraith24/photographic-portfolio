@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dean Wraith Photography</title>
-    <!-- Font Awesome Link -->
+    <title>Dean Wraith Photography - Contact</title>
+    <!-- Font Awesome Link for social icons -->
     <script src="https://kit.fontawesome.com/32ddf6eb75.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS script -->
+    <!-- Bootstrap CSS for responsive grid and components -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- CSS Stylesheet -->
-     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Custom CSS Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <!-- Header with navigation menu -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
+              <!-- Brand name/logo linking to home page -->
               <a class="navbar-brand" href="index.html"> <h2>Chasing Light</h2> </a>
+              <!-- Mobile hamburger menu toggle button -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              <!-- Navigation menu items -->
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
@@ -39,57 +43,105 @@
           </nav>
     </header>
 
-    <div class="container mt-5">
-      <h2 class="text-decoration-underline">Contact Us</h2>
-      <br>
-      <form id="contact-form">
-          <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" required>
+    <!-- Main content -->
+    <div class="site-content">
+      <!-- Contact form section -->
+      <div class="container mt-5">
+        <!-- Contact page title -->
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <h2 class="text-decoration-underline">Contact Us</h2>
+            <p class="mt-3">Have a question or want to book a photography session? Get in touch below!</p>
           </div>
-          <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" required>
+        </div>
+        
+        <!-- Contact form with responsive layout -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10 col-sm-12">
+            <form id="contact-form">
+                <!-- Name input field -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                </div>
+                <!-- Email input field -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="your.email@example.com" required>
+                </div>
+                <!-- Country dropdown selection -->
+                <div class="mb-3">
+                    <label for="country" class="form-label">Country</label>
+                    <select class="form-select" id="country" required>
+                        <option value="" disabled selected>Select your country</option>
+                        <option value="ZA">South Africa</option>
+                        <option value="USA">United States</option>
+                        <option value="CA">Canada</option>
+                        <option value="GB">United Kingdom</option>
+                        <option value="AU">Australia</option>
+                        <!-- Additional countries could be added here -->
+                    </select>
+                </div>
+                <!-- Message text area -->
+                <div class="mb-4">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="What would you like to discuss?" required></textarea>
+                </div>
+                <!-- Submit button -->
+                <div class="text-center mb-5">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
           </div>
-          <div class="mb-3">
-              <label for="country" class="form-label">Country</label>
-              <select class="form-select" id="country" required>
-                  <option value="" disabled selected>Select your country</option>
-                  <option value="USA">United States</option>
-                  <option value="CA">Canada</option>
-                  <option value="GB">United Kingdom</option>
-                  <option value="AU">Australia</option>
-                  <!-- Add more countries as needed -->
-              </select>
+        </div>
+      </div>
+      
+      <!-- Additional contact information section -->
+      <div class="container mb-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10 col-sm-12">
+            <div class="card p-4 bg-light">
+              <h4 class="text-center mb-3">Other Ways to Connect</h4>
+              <div class="row text-center">
+                <div class="col-md-4 mb-3">
+                  <i class="fa-solid fa-envelope mb-2" style="font-size: 1.5rem; color: #CC5500;"></i>
+                  <p>contact@chasinglight.com</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <i class="fa-solid fa-phone mb-2" style="font-size: 1.5rem; color: #CC5500;"></i>
+                  <p>+27 123 456 7890</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <i class="fa-solid fa-location-dot mb-2" style="font-size: 1.5rem; color: #CC5500;"></i>
+                  <p>Cape Town, South Africa</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="4" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-  </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Footer with social media links -->
     <footer>
       <ul class="social-networks">
+        <!-- Social media icon links open in new tabs -->
         <li> 
-          <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a> 
+          <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-square-facebook"></i></a> 
         </li>
         <li>
-          <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter page (opens in new tab)"><i class="fa-brands fa-square-twitter"></i></a>
         </li>
         <li>
-          <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
+          <a href="https://www.youtube.com" target="_blank" aria-label="Visit our YouTube channel (opens in new tab)"><i class="fa-brands fa-square-youtube"></i></a>
         </li>
         <li>
-          <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-square-instagram"></i></a>
         </li>
       </ul>
     </footer>
 
-
-
-    <!-- Bootstrap JS script -->
+    <!-- Bootstrap JS script for interactive components -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

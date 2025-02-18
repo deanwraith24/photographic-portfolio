@@ -1,86 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-body {
-    font-family: Lato;
-    color: #777777;
-  }
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-h2 {
-  font-family: Oswald;
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #777777;
+  line-height: 1.6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* This ensures the body takes at least the full viewport height */
+}
+
+/* Main content wrapper - this pushes the footer down */
+.site-content {
+  flex: 1 0 auto; /* Grow to fill available space */
+}
+
+h2, h3 {
+  font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
   color: #CC5500;
+  margin-bottom: 1rem;
 }
 
-#hero-image {
-  height: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-}
-
+/* Hero section */
 #hero-section {
-  height: 600px;
+  max-height: 600px;
   width: 100%;
   overflow: hidden;
   position: relative;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
-#portfolio-teaser{
-  height: 100%;
-  width: auto;
-  overflow: hidden;
-  position: relative;
+#hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover; /* Maintain aspect ratio while filling container */
+}
+
+/* Portfolio teaser section */
+#portfolio-teaser {
+  width: 100%;
+  padding: 2rem 0;
   text-align: center;
 }
 
 .portfolio-link {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   color: #777777;
-  font-size: 130%;
+  font-size: 1.3rem;
   letter-spacing: 2px;
   text-decoration: none;
+  transition: color 0.3s ease;
+  display: inline-block;
+  margin-bottom: 1.5rem;
 }
 
+.portfolio-link:hover {
+  color: #CC5500;
+}
+
+/* Portfolio teaser images */
+#portfolio-teaser .img-fluid {
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+#portfolio-teaser .img-fluid:hover {
+  transform: scale(1.05);
+}
+
+/* About section */
 #about-top {
-  height: 75px;
+  padding: 2rem 0 1rem;
   width: 100%;
   text-align: center;
 }
 
 .about-heading {
   color: #777777;
-  font-family: Lato;
-  font-size: 200%;
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
   letter-spacing: 2px;
 }
 
 #about-text {
-  height: auto;
-  width: auto;
+  padding: 1rem 0;
   overflow: hidden;
   position: relative;
   text-align: center;
 }
 
-#awards-list {
-  text-align: center;
-  list-style-type: none;
-  padding: 0px;
+#about-text p {
+  text-align: left;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
 }
 
+#awards-list {
+  text-align: left;
+  list-style-type: none;
+  padding: 0 1rem;
+}
+
+#awards-list li {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+#awards-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #CC5500;
+}
+
+/* Portfolio grid */
 #portfolio-images {
-  padding: 15px 10px 15px 10px;
+  padding: 2rem 0;
 }
 
 .portfolio-row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  margin: 0 -4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .portfolio-column {
   flex: 25%;
   max-width: 25%;
@@ -91,50 +148,131 @@ h2 {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  transition: opacity 0.3s;
+}
+
+.portfolio-column img:hover {
+  opacity: 0.8;
+}
+
+/* Contact form */
+#contact-form {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 #contact-form > button {
   background-color: #CC5500;
-  border: #777777;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+#contact-form > button:hover {
+  background-color: #a64500;
 }
 
 label {
   color: #777777;
-  font-family: Lato;
-  font-size: 125%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
+/* Footer */
 footer {
-  height: 150px;
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  flex-shrink: 0; /* Prevent footer from shrinking */
+  margin-top: auto; /* Push footer to bottom if content is shorter than viewport */
 }
 
 .social-networks {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .social-networks li {
-  display: inline;
+  display: inline-block;
+  margin: 0 0.5rem;
 }
 
 .social-networks i {
-  font-size: 200%;
-  margin: 1%;
-  padding: 5%;
+  font-size: 1.75rem;
   color: #CC5500;
+  transition: color 0.3s ease;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+.social-networks i:hover {
+  color: #a64500;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+  #hero-section {
+    max-height: 450px;
+  }
+  
+  #hero-image {
+    max-height: 450px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .portfolio-column {
     flex: 50%;
     max-width: 50%;
   }
+  
+  #hero-section {
+    max-height: 350px;
+  }
+  
+  #hero-image {
+    max-height: 350px;
+  }
+  
+  .about-heading {
+    font-size: 1.75rem;
+  }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .portfolio-column {
     flex: 100%;
     max-width: 100%;
+  }
+  
+  #hero-section {
+    max-height: 250px;
+  }
+  
+  #hero-image {
+    max-height: 250px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .portfolio-link {
+    font-size: 1.1rem;
+  }
+  
+  .about-heading {
+    font-size: 1.5rem;
+  }
+  
+  #awards-list li {
+    padding-left: 0.75rem;
+  }
+  
+  .social-networks i {
+    font-size: 1.5rem;
+    margin: 0.5%;
+    padding: 3%;
   }
 }
