@@ -17,12 +17,12 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* This ensures the body takes at least the full viewport height */
+  min-height: 100vh;
 }
 
-/* Main content wrapper - this pushes the footer down */
+/* Main content wrapper */
 .site-content {
-  flex: 1 0 auto; /* Grow to fill available space */
+  flex: 1 0 auto;
 }
 
 h2, h3 {
@@ -32,7 +32,7 @@ h2, h3 {
   margin-bottom: 1rem;
 }
 
-/* Hero section - UPDATED */
+/* Hero section */
 #hero-section {
   width: 100%;
   overflow: hidden;
@@ -44,8 +44,8 @@ h2, h3 {
 #hero-image {
   width: 100%;
   height: auto;
-  object-fit: cover; /* Maintain aspect ratio while filling container */
-  display: block; /* Removes any potential whitespace */
+  object-fit: cover;
+  display: block;
 }
 
 /* Portfolio teaser section */
@@ -184,8 +184,8 @@ label {
 footer {
   background-color: #f8f9fa;
   padding: 2rem 0;
-  flex-shrink: 0; /* Prevent footer from shrinking */
-  margin-top: auto; /* Push footer to bottom if content is shorter than viewport */
+  flex-shrink: 0;
+  margin-top: auto;
 }
 
 .social-networks {
@@ -209,7 +209,7 @@ footer {
   color: #a64500;
 }
 
-/* Responsive adjustments - UPDATED media queries */
+/* Responsive adjustments */
 @media screen and (max-width: 992px) {
   #hero-section {
     max-height: 450px;

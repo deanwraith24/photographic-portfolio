@@ -133,7 +133,11 @@ A page where users can order prints and have them shipped to them.
 
 #### <u>Manual Testing</u>
 
-During the manual testing phase I used personal phones and tablets to view the site and test the various features to ensure they work as expected.
+|Feature|Expected|Testing|Result|
+|Navbar Main Heading Link|Return to Home page when clicked|CLicked from portfolio page|Passed|
+|Navbar links|Navigate user to associated pages|Checked user was directed to correct page when link clicked|Passed|
+|Call to action link|Direct user to protfolio page|Clicked link to check|Passed|
+|Social Media Link|Open specific social media site in new browser tab|Clicked each icon|Passed|
 
 #### <u>Validation</u>
  * HTML
@@ -143,6 +147,13 @@ During the manual testing phase I used personal phones and tablets to view the s
  For the validation of the CSS I used Jigsaw CSS validatior.
 
 #### <u>Issues</u>
+
+The hero image was not scaling correctly to be responsive on smaller screens. The fix for this issue:
+- Updated the #hero-section to have consistent width and other properties without the fixed max-height that was causing scaling issues
+- Modified the #hero-image styling to properly scale using width: 100% and height: auto
+- Added object-fit: cover to maintain the aspect ratio while filling the container
+- Added display: block to remove any potential whitespace that might affect image rendering
+- Kept the responsive max-height declarations in the media queries to ensure the image scales appropriately at different viewport widths
 
 ### <u>Deployement</u>
 
